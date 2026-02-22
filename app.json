@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Focus Hatch",
+    "slug": "focus-hatch",
+    "scheme": "focushatch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.forge.focushatch",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-dev-client"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ebb4e3c4-2c07-4365-adca-735472c7fe4a"
+      }
+    },
+    "owner": "amine7895"
+  }
+}
